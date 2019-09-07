@@ -17,9 +17,6 @@ export class StockChart extends Component {
     this.dividendData = [];
     this.bollingerBandsData = undefined;
     this.movingAverageData = undefined;
-    
-
-    
   }
 
   loadData(selectedDataset = 'vig') {
