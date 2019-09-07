@@ -35,6 +35,7 @@ import SiteLogo from "../../assets/Images/car.svg";
 import ToolsIcon from "../../assets/Images/Icons/images.jpg";
 import DepartmentsIcon from "../../assets/Images/Icons/Bold-and-Vibrant-colors.png";
 import TransportIcon from "../../assets/Images/Icons/bitcoin.svg";
+import ChartIcon from "../../assets/Images/Icons/stock_chart.png";
 import AllRoutes from "../../Routes/DashboardRoutes";
 
 class SiteDesign extends React.Component {
@@ -266,6 +267,21 @@ class SiteDesign extends React.Component {
           <List>
             <ListItem
               button
+              key="Main"
+              component={Link}
+              to="/main"
+            >
+              <ListItemIcon>
+                <img
+                  src={ChartIcon}
+                  className={classes.sideNavBarIcon}
+                  alt=""
+                />
+              </ListItemIcon>
+              <ListItemText primary="Main Page" />
+            </ListItem>
+            <ListItem
+              button
               key="Stock Dashboard"
               component={Link}
               to="/stock_dashboard"
@@ -309,6 +325,7 @@ class SiteDesign extends React.Component {
               </ListItemIcon>
               <ListItemText primary="Bitcoin Pricing" />
             </ListItem>
+
           </List>
         </Drawer>
         <main className={classes.content}>

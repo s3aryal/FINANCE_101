@@ -5,6 +5,7 @@ import NotFound from "../Components/NotFound/NotFound";
 import StockAnalyticsDashBoard from "../Components/StockAnalytics/StockAnalyticsDashBoard";
 import AppDashBoard from "../Components/AppDashBoard";
 import CSVParsing from "../Components/CSVParsing/CSVParsing";
+import MainDashboard from "../Components/Main/MainDashboard";
 import BitCoin from "../Components/BitCoin/BitCoin";
 import DashBoard from "../Dashboard";
 
@@ -22,6 +23,7 @@ export class DashboardRoutes extends Component {
           />
           <Route exact path={"/csvparsing"} component={CSVParsing} />
           <Route exact path={"/bitcoin"} component={BitCoin} />
+          <Route exact path={"/main"} component={MainDashboard} />
           <Route component={NotFound} />
         </Switch>
       </div>
