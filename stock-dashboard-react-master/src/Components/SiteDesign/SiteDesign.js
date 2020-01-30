@@ -145,7 +145,7 @@ class SiteDesign extends React.Component {
                   className={classes.title}
                   noWrap
                 >
-                  REACT APP
+                  JSK Analytics
                 </Typography>
               )}
               <Switch
@@ -177,7 +177,7 @@ class SiteDesign extends React.Component {
                       variant="body2"
                       className={classes.profileButtonIconText}
                     >
-                      Rohan | Paul
+                      Kri
                     </Typography>
                   </IconButton>
                 </div>
