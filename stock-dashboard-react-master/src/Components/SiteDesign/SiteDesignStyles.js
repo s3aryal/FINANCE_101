@@ -18,7 +18,7 @@ module.exports = {
     profileNameIcon: {
       display: "flex",
       justifyContent: "space-around",
-      alignItems: "center",
+      alignItems: "right",
       marginRight: 10
     },
     profileIconButton: {

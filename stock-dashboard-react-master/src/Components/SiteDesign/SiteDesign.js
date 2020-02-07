@@ -145,7 +145,7 @@ class SiteDesign extends React.Component {
                   className={classes.title}
                   noWrap
                 >
-                  REACT APP
+                  JSK Analytics
                 </Typography>
               )}
               <Switch
@@ -166,7 +166,7 @@ class SiteDesign extends React.Component {
                     className={classes.profileIconButton}
                   >
                     <img
-                      src={require("../../assets/Images/Icons/depositphotos_68236367-stock-illustration-truck-with-mexican-food.jpg")}
+                      src={require("../../assets/Images/Icons/krishna.png")}
                       alt=""
                       style={{
                         width: 42,
@@ -177,7 +177,7 @@ class SiteDesign extends React.Component {
                       variant="body2"
                       className={classes.profileButtonIconText}
                     >
-                      Rohan | Paul
+                      Krishna
                     </Typography>
                   </IconButton>
                 </div>
@@ -251,7 +251,7 @@ class SiteDesign extends React.Component {
                 alt="Port Logo"
                 className={classes.sideNavBarImage}
               />
-              <h5 className={classes.sideNavBarText}>REACT APP</h5>
+              <h5 className={classes.sideNavBarText}>JSK</h5>
             </div>
             <IconButton onClick={this.handleDrawerClose}>
               {theme.direction === "rtl" ? (
