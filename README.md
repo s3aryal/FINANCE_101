@@ -1,4 +1,4 @@
-# FINANCE_101
+# JUPITER ANALYTICS PLATFORM
 
 This app uses Python to apply various regresions (i.e.Linear,Random Forest,Multi-LayerPerceptron)of technical indicators such as RSI and MACD to predict stock prices
 
